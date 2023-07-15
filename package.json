@@ -1,0 +1,23 @@
+{
+  "name": "filterable-product-list-alpine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server public -o",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GrishaAngelovGH/filterable-product-list-alpine.js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GrishaAngelovGH/filterable-product-list-alpine.js/issues"
+  },
+  "homepage": "https://github.com/GrishaAngelovGH/filterable-product-list-alpine.js#readme",
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}
