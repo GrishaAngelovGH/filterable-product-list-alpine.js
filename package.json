@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/GrishaAngelovGH/filterable-product-list-alpine.js#readme",
   "dependencies": {
+    "alpinejs": "^3.12.3",
     "http-server": "^14.1.1"
   }
 }
