@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "http-server public -o",
+    "start": "http-server dist -o",
+    "build": "node_modules/webpack/bin/webpack.js --config webpack.config",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,6 +20,11 @@
   "homepage": "https://github.com/GrishaAngelovGH/filterable-product-list-alpine.js#readme",
   "dependencies": {
     "alpinejs": "^3.12.3",
-    "http-server": "^14.1.1"
+    "http-server": "^14.1.1",
+    "webpack": "^5.88.1",
+    "webpack-cli": "^5.1.4"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^5.5.3"
   }
 }
