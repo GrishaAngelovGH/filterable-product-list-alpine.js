@@ -1,9 +1,9 @@
 import Alpine from 'alpinejs'
-import app from './app'
-import './style.css'
+import config from './config'
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 window.Alpine = Alpine
 
-app()
+config()
 
 Alpine.start()

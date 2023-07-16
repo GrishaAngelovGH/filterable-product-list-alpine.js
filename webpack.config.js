@@ -27,5 +27,9 @@ module.exports = {
   plugins: [new HtmlWebpackPlugin({
     template: './public/index.html',
     favicon: './public/favicon.png'
-  })]
+  })],
+  performance: {
+    maxEntrypointSize: 512000,
+    maxAssetSize: 512000
+  }
 }

@@ -20,6 +20,7 @@
   "homepage": "https://github.com/GrishaAngelovGH/filterable-product-list-alpine.js#readme",
   "dependencies": {
     "alpinejs": "^3.12.3",
+    "bootstrap": "^5.3.0",
     "http-server": "^14.1.1",
     "webpack": "^5.88.1",
     "webpack-cli": "^5.1.4"
