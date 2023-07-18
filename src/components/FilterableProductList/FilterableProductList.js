@@ -2,6 +2,7 @@ import React from 'jsx-dom'
 
 import Header from 'components/Header'
 import Input from 'components/Input'
+import Products from 'components/Products'
 
 const FilterableProductList = () => {
 
@@ -10,6 +11,7 @@ const FilterableProductList = () => {
       <div className='col-md-12'>
         <Header />
         <Input />
+        <Products />
       </div>
     </div>
   )
